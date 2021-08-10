@@ -19,7 +19,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "colors": "^1.4.0",
